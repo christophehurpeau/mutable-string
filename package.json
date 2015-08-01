@@ -1,0 +1,22 @@
+{
+  "name": "mutable-string",
+  "description": "mutable string",
+  "keywords": [
+    "mutable",
+    "string"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/christophehurpeau/mutable-string",
+  "license": "MIT",
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "repository": "christophehurpeau/mutable-string",
+  "main": "./lib/MutableString.js",
+  "dependencies": {
+    "babel-runtime": "^5.8.12"
+  },
+  "devDependencies": {
+    "core-js": "^1.0.1",
+    "proclaim": "^3.3.0",
+    "springbokjs-library": "^8.0.3"
+  }
+}
