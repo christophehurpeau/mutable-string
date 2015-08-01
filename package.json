@@ -18,5 +18,14 @@
     "core-js": "^1.0.1",
     "proclaim": "^3.3.0",
     "springbokjs-library": "^8.0.3"
+  },
+  "scripts": {
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "prepublish": "make pre-publish",
+    "preversion": "make pre-version",
+    "test": "make tests",
+    "version": "make version",
+    "watch": "make watch"
   }
 }
