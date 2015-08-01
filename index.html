@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Mutable-string : Mutable Strings in js">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mutable-string</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/christophehurpeau/mutable-string">View on GitHub</a>
+
+          <h1 id="project_title">Mutable-string</h1>
+          <h2 id="project_tagline">Mutable Strings in js</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/christophehurpeau/mutable-string/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/christophehurpeau/mutable-string/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="mutable-string----" class="anchor" href="#mutable-string----" aria-hidden="true"><span class="octicon octicon-link"></span></a>mutable-string <a href="https://npmjs.org/package/mutable-string"><img src="https://img.shields.io/npm/v/mutable-string.svg?style=flat" alt="NPM version"></a> <a href="https://circleci.com/gh/christophehurpeau/mutable-string"><img src="https://circleci.com/gh/christophehurpeau/mutable-string.svg?style=svg" alt="Build Status"></a> <a href="https://codeclimate.com/github/christophehurpeau/mutable-string"><img src="https://codeclimate.com/github/christophehurpeau/mutable-string/badges/gpa.svg" alt="Code Climate"></a> <a href="http://christophehurpeau.github.io/mutable-string/coverage/lcov-report/"><img src="https://codeclimate.com/github/christophehurpeau/mutable-string/badges/coverage.svg" alt="Coverage"></a>
+</h1>
+
+<p>Use multiple RegExp like you had only one ! Iterate on matches or find the first match.</p>
+
+<h2>
+<a id="quick-example" class="anchor" href="#quick-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick example</h2>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">import</span> MutableString <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>mutable-string<span class="pl-pds">'</span></span>; // or var MutableString = require(<span class="pl-s"><span class="pl-pds">'</span>mutable-string<span class="pl-pds">'</span></span>);
+<span class="pl-k">const</span> <span class="pl-c1">mutableString</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">MutableString</span>(<span class="pl-s"><span class="pl-pds">'</span>foobar<span class="pl-pds">'</span></span>);
+mutableString.<span class="pl-c1">replace</span>(<span class="pl-s"><span class="pl-pds">'</span>foo<span class="pl-pds">'</span></span>, <span class="pl-k">new</span> <span class="pl-en">MutableString</span>(<span class="pl-s"><span class="pl-pds">'</span>bar<span class="pl-pds">'</span></span>));
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(mutableString.<span class="pl-c1">toString</span>()); <span class="pl-c">// barbar</span>
+</pre></div>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mutable-string maintained by <a href="https://github.com/christophehurpeau">christophehurpeau</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
