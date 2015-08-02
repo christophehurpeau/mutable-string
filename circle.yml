@@ -8,11 +8,12 @@ general:
       - gh-pages
 
 dependencies:
+  pre:
+    - npm install -g npm@3.0-latest
   cache_directories:
     - node_modules
   override:
     - rm -Rf node_modules
-    - npm install -g npm@3.0-latest
     - npm prune && npm install --no-spin
     - npm install codeclimate-test-reporter xunit-file
 
