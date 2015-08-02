@@ -29,7 +29,7 @@ FN:257,trim
 FN:268,trimLeft
 FN:279,trimRight
 FN:289,valueOf
-FN:296,value
+FN:303,value
 FNF:30
 FNH:9
 FNDA:1,(anonymous_1)
@@ -138,10 +138,10 @@ DA:280,0
 DA:282,0
 DA:283,0
 DA:290,6
-DA:297,1
-DA:301,1
 DA:304,1
-DA:305,1
+DA:308,1
+DA:311,1
+DA:312,1
 LF:80
 LH:26
 BRF:0
