@@ -17,10 +17,10 @@ export default class MutableString {
 
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
-     * @returns {string}
+     * @returns {Number}
      */
     charCodeAt() {
-        return this.string.charAt(...arguments);
+        return this.string.charCodeAt(...arguments);
     }
 
     /**
@@ -246,4 +246,3 @@ export default class MutableString {
         return this.string[Symbol.iterator]();
     }
 }
-
