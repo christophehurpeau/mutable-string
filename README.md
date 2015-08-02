@@ -3,6 +3,8 @@ mutable-string [![NPM version][npm-image]][npm-url] [![Build Status][build-statu
 
 Keep a single instance for your strings !
 
+[API](http://christophehurpeau.github.io/mutable-string/docs/MutableString.html)
+
 ## Quick example
 
 ```js
