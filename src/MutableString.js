@@ -129,6 +129,11 @@ export default class MutableString {
         return this.string.valueOf();
     }
 
+    /**
+     * Symbol.iterator
+     *
+     * @method @@iterator
+     */
     [Symbol.iterator](): Iterator {
         return this.string[Symbol.iterator]();
     }
