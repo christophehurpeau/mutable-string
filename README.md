@@ -1,6 +1,8 @@
 mutable-string [![NPM version][npm-image]][npm-url] [![Build Status][build-status-image]][build-status-url] [![Code Climate][code-climate-image]][code-climate-url] [![Coverage][coverage-image]][coverage-url]
 ============================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/mutable-string.svg)](https://greenkeeper.io/)
+
 Keep a single instance for your strings !
 
 [API](http://christophehurpeau.github.io/mutable-string/docs/MutableString.html)
